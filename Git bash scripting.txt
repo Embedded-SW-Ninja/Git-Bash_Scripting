@@ -1,0 +1,41 @@
+
+
+Mondher@Mondher-PC MINGW64 /d/A-TUN/bash_prj
+
+$ git init              
+
+Initialized empty Git repository in D:/A-TUN/bash_prj/.git/
+
+
+
+Mondher@Mondher-PC MINGW64 /d/A-TUN/bash_prj (master)
+
+$ git add .           
+
+
+Mondher@Mondher-PC MINGW64 /d/A-TUN/bash_prj (master)
+
+$ git status     
+
+
+Mondher@Mondher-PC MINGW64 /d/A-TUN/bash_prj (master)
+
+
+$ git commit -am "First Comit"    
+
+
+
+
+
+Mondher@Mondher-PC MINGW64 /d/A-TUN/bash_prj (master)
+
+$ git log       
+
+
+
+$ git remote add origin  https://github.com/Embedded-SW-Ninja/Git-Bash_Scripting.git  
+
+
+Mondher@Mondher-PC MINGW64 /d/A-TUN/bash_prj (master)
+
+$ git push -f origin master   
