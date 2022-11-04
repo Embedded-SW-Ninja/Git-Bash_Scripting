@@ -1,41 +1,55 @@
 
 
 Mondher@Mondher-PC MINGW64 /d/A-TUN/bash_prj
-
 $ git init              
 
 Initialized empty Git repository in D:/A-TUN/bash_prj/.git/
 
 
+Mondher@Mondher-PC MINGW64 /d/A-TUN/bash_prj (master)
+$ git add .   
+        
+The file will have its original line endings in your working directory
 
 Mondher@Mondher-PC MINGW64 /d/A-TUN/bash_prj (master)
-
-$ git add .           
-
-
-Mondher@Mondher-PC MINGW64 /d/A-TUN/bash_prj (master)
-
 $ git status     
 
+On branch master
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   File_A/Git-Bash_Scripting.txt
+  
 
 Mondher@Mondher-PC MINGW64 /d/A-TUN/bash_prj (master)
-
-
 $ git commit -am "First Comit"    
 
-
-
+[master (root-commit) 4ea341b] First Comit
+ 374 files changed, 204163 insertions(+)
+  create mode 100644  File_A/Git-Bash_Scripting.txt
 
 
 Mondher@Mondher-PC MINGW64 /d/A-TUN/bash_prj (master)
-
 $ git log       
 
+commit 4ea341b452da8eb9e1e0368bb676f066cd748f30 (HEAD -> master)
+Author: Mondher <mondher.hssan94@gmail.com>
+Date:   Fri Nov 11 10:15:01 2022 +0100
+
+    First Comit
 
 
 $ git remote add origin  https://github.com/Embedded-SW-Ninja/Git-Bash_Scripting.git  
 
 
 Mondher@Mondher-PC MINGW64 /d/A-TUN/bash_prj (master)
-
 $ git push -f origin master   
+
+Enumerating objects: 2, done.
+Counting objects: 100% (2/2), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects:  100% (2/2), 894 KOB | 4.53 MiB/s
+
+successfully, done.
